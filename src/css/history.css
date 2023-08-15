@@ -1,0 +1,119 @@
+/* tags */
+body {
+    color: white;
+    background-color: black;
+    font-family: arial;
+  } 
+  
+  header {
+    width: 100%;
+    height: 80px;
+    text-align: start;
+  } 
+  
+  footer {
+      width: 100%;
+      height: 50px;
+      background-color: #141414;
+      text-align: end;
+      border: solid #141414 1px;
+  } 
+  
+  a {
+      text-decoration: none;
+      color: white;
+  } 
+  
+  a:hover {
+      color: #000000;
+      background-color: #be1212;
+      border: solid #be1212 1px;
+      border-radius: 5px;
+  } 
+   
+  h1 {
+      text-align: center;
+  } 
+  
+  p {
+      padding: 10px 20px 10px 20px;
+  } 
+  
+  /* ids */
+  #log {
+      width: 70px;
+      height: 70px;
+      position: absolute;
+  } 
+  
+  #hdl {
+      color: #000000;
+      text-align: center;
+      width: 100%;
+      background-color: #ffffff;
+      padding-top: 10px;
+  } 
+  
+  #baner {
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      z-index: -1;
+  } 
+  
+  
+  /* classes */
+  .fund {
+      position: absolute;
+      height: 300px;
+      width: 100%;
+      z-index: -1;
+  } 
+  
+  .imgj {
+      width: 90%;
+      min-width: 30%;
+      text-align: end;
+  } 
+  
+  .imgk {
+     width: 90%;
+     min-width: 30%;
+     text-align: start;
+  }
+  
+  .idp {
+      color: red;
+  } 
+  
+  .med {
+      width: 30px;
+      height: 30px;
+      padding: 15px 15px 15px 15px;
+  } 
+  
+  .menu {
+      padding: 30px 10px 10px 10px;
+      text-align: center;
+  } 
+  
+  .but {
+      border-bottom: solid #000000 3px;  
+  }
+  
+  .his {
+     height: 300px; 
+     width: 100%;
+     margin-top: 5px; 
+     padding-top: 10px;
+  } 
+  
+  /* responsividade */
+  @media screen and (max-width: 800px) {
+      footer {
+          height: 50px;
+          background-color: #141414;
+          text-align: center;
+      } 
+  } 
+  
