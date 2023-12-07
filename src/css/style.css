@@ -1,73 +1,106 @@
- /* tags */
- header {
-    height: 100px;
-  } 
-  
-  body {
-    color: white;
-    background-color: black;
-    font-family: arial;
-  } 
-  
-  a {
-      color: white;
-      text-decoration: none;  
-  } 
-  
-  a:hover {
-      color: #000000;
-      background-color: #be1212;
-      border: solid #be1212 1px;
-      border-radius: 5px;
-  } 
-  
-   /* ids */
-  #logo {
-      width: 70px;
-      height: 80px;
-      position: absolute;
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     color: #ffffff;
+     background-color: black;
+     
+     font-family: arial;
+
+    } 
+    
+
+
+a {
+        color: #ffffff;
+        text-decoration: none;  
+    } 
+    
+#logo {
+        width: 70px;
+        height: 80px;
+        
       z-index: 1;
+
+      padding: 10px;
   } 
   
-  #wel {
+#wel {
       position: absolute;
       width: 100%;
       height: 400px;
       z-index: -1;
       margin-top: 5px;
       margin-bottom: 5px;
-      text-align: start;
   } 
   
-  #com {
+#bannner {
       height: 100px;
-      width: 100%;
+      width: 100%;    
+
       position: absolute;
-      z-index: -1;
+      z-index: -1; 
+    } 
+
+.painel {
+       height: 100px;
+
+       padding: 5px;
+     } 
+  
+.painel nav {
+      width: 100%;
+      height: 40px;
+
+      text-align: center;
+      
+      display: inline;
   } 
   
-   /* classes */
-  
-  .lest {
+.lest {
       width: 30px;
       height: 30px;
       padding-top: 15px;
-  } 
+    } 
   
-  .border {
-      border-left: solid black;
-      padding-left: 5px;
-      margin-left: 15px;
-  } 
-  
-  .dont {
-      border: solid white 1px;
-      background-color: white; 
+.conteudo {
+      border: solid #ffffff 1px;
+      background-color: #ffffff; 
       width: auto;
-      color: black;
+      color: #000000;
       margin-top: 18px;
       height: auto;
   } 
+
+  .conteudo div {
+        border-left: solid black;
+        padding-left: 5px;
+        margin-left: 15px;
+  }
+
+  .sociais {
+    display:  flex;
+    gap: 15px;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+  }
+  
+  .sociais a {
+    border-bottom: #000000 solid;
+    
+    
+  }
+  
+  .sociais a p{
+    color: #000000;
+
+    display: inline;
+  }
   
   .cont {
     margin-top: auto 5px;
@@ -76,55 +109,35 @@
     text-align: center;
     padding-top: 90px;
   } 
-  
-  .rdp {
-    width:  20px;
-    height: 20px;
-  } 
-  
-  .end {
-     height: auto;
+
+  .cont button {
+    color: #ffffff;
+    background: #ff0000;
+
+    padding: 10px;
+    margin: 5px;
+
+    box-shadow: #9e9b9b 0 1px 2px 0;
+  }
+    
+.end {
      width: 100%;
+
      border: solid #141414;
      background-color: #141414;
-     text-align: end;
-     padding-right: 10px;
+
+     text-align: center;
   } 
   
-  .soc {
-      padding: 10px 10px 10px 10px;
-  } 
-  
-  .men {
-      width: 100%;
-      height: 40px;
-      text-align: center;
-      padding: 40px 10px 10px 10px;
-  } 
-  
-  .but {
-      border-bottom: solid #000000 3px; 
-  }
-  
+
    /* responsividade */
   @media screen and (max-width: 800px) {
       .dont {
-          border: solid white 1px;
-          background-color: white; 
+          border: solid #ffffff 1px;
+          background-color: #ffffff; 
           color: black;
           width: 100%;
           height: auto;
           margin-top: 18px;
     } 
   } 
-  
-  @media screen and (max-width: 800px) {
-      .end {
-          width: 100%;
-          border: solid #141414 1px;
-          background-color: #141414;
-          text-align: center;
-          padding-right: 10px;
-      } 
-  } 
-  
